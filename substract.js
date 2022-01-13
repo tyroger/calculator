@@ -1,5 +1,5 @@
 "use strict";
 
 function substract(a, b) {
-  return "a - b";
+  return a - b;
 }
