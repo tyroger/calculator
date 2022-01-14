@@ -1,5 +1,9 @@
 "use strict";
 
 module.exports = function sum(a, b) {
+  const res = a + b;
+  if (Number.NaN(res)) {
+    throw new Error("invalid operation");
+  }
   return a + b;
 };
